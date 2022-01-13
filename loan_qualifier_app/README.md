@@ -8,9 +8,9 @@ The purpose of this application is to determine if an applicant qualifies for a 
 
 This project leverages python 3.9 with the following packages:
 
-`fire` - For the command line interface, help page, and entry-point.
+* [fire](https://github.com/google/python-fire) - For the command line interface, help page, and entry-point.
 
-`questionary` - For interactive user prompts and dialogs
+* [questionary](https://github.com/tmbo/questionary) - For interactive user prompts and dialogs
 
 ---
 
@@ -18,9 +18,10 @@ This project leverages python 3.9 with the following packages:
 
 Before running the application first install the following dependencies.
 
-`pip install fire`
-`pip install questionary`
-
+```
+ pip install fire
+ pip install questionary
+```
 ---
 
 ## Usage
@@ -31,7 +32,7 @@ To use the loans qualifier application simply clone the repository and run the a
 
 Upon launching the loan qualifier you will be greeted with the following prompts
 
-![This is the loan qualifier application when executed.](.\loan_qualifier_usage.PNG)
+![This is the loan qualifier application when executed.](loan_qualifier_usage.PNG)
 
 ---
 
