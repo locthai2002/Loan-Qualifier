@@ -110,11 +110,11 @@ def save_qualifying_loans(qualifying_loans):
     """
     # @TODO: Complete the usability dialog for savings the CSV Files.
     # YOUR CODE HERE!
-    # if qualifying loan is empty
+    # if qualifying loan is empty i.e. You don't qualify for a loan.
     if not qualifying_loans:
-        sys.exit(f"Oops! This qualifying loan list is empty.")
+        sys.exit(f"Sorry, you don't qualify for a loan!")
 
-    # csvpath = Path('qualifying_loans.csv')
+    # Ask user if they want to save the qualifying loans in .csv file
     save_qualifying_loan = questionary.confirm("Do you want to save the qualifying loans in .csv file?").ask()
 
     # If enter anything but 'y', exit program
